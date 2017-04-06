@@ -18,6 +18,7 @@ class BloxorzSuite extends FunSuite {
      */
     def solve(ls: List[Move]): Block =
       ls.foldLeft(startBlock) { case (block, move) =>
+        //println((block,move))
         require(block.isLegal) // The solution must always lead to legal blocks
         move match {
           case Left => block.left
@@ -97,6 +98,9 @@ class BloxorzSuite extends FunSuite {
 
 	test("optimal solution for level 1") {
     new Level1 {
+      println(s"Goal: ")
+      println(goal)
+      println(solve(solution))
       assert(solve(solution) == Block(goal, goal))
     }
   }
