@@ -52,9 +52,14 @@ trait StringParserTerrain extends GameDef {
    * a valid position (not a '-' character) inside the terrain described
    * by `levelVector`.
    */
-  def terrainFunction(levelVector: Vector[Vector[Char]]): Pos => Boolean = (
-    pos => levelVector(pos.row)(pos.col) != '-'
-  )
+  def terrainFunction(levelVector: Vector[Vector[Char]]): Pos => Boolean =
+    pos => {
+      if (pos.row < 0) throw new IndexOutOfBoundsException("negative row")
+      if (pos.col < 0) throw new IndexOutOfBoundsException("negative col")
+      if (pos.row >= levelVector.size) throw new IndexOutOfBoundsException("row too large")
+      if (pos.col >= levelVector.head.size) throw new IndexOutOfBoundsException("column too large")
+      levelVector(pos.row)(pos.col) != '-'
+    }
 
   /**
    * This function should return the position of character `c` in the
