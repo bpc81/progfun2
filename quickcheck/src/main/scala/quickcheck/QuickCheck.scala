@@ -33,4 +33,14 @@ abstract class QuickCheckHeap extends Properties("Heap") with IntHeap {
     val h = insert(b, insert(a, empty))
     findMin(h) == a.min(b)
   }
+
+  property("minimum commutes with meld") = forAll {(h1: H, h2: H) =>
+    val h = meld(h1,h2)
+    (isEmpty(h1), isEmpty(h2)) match {
+      case (true,true) => true
+      case (true,false) => findMin(h) == findMin(h2)
+      case (false,true) => findMin(h) == findMin(h1)
+      case (false,false) => findMin(h) == findMin(h1).min( findMin(h2) )
+    }
+  }
 }
