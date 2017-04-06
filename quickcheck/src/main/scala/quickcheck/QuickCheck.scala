@@ -54,4 +54,14 @@ abstract class QuickCheckHeap extends Properties("Heap") with IntHeap {
   property("repeatedly extracting minima yields increasing sequence") = forAll { (h: H) =>
     compareWithPrev(Int.MinValue, h)
   }
+
+  property("deleteMin removes correct element") = forAll { (h: H) =>
+    if (isEmpty(h)) true else {
+      val n = findMin(h)
+      val m = n.min(n-1) // catches underflow
+      val g = deleteMin( insert(m, h) )
+      findMin(g) == n
+    }
+  }
+
 }
