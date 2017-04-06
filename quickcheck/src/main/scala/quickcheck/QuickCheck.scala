@@ -29,4 +29,8 @@ abstract class QuickCheckHeap extends Properties("Heap") with IntHeap {
     isEmpty(h)
   }
 
+  property("minimum of two") = forAll { (a: Int, b: Int) =>
+    val h = insert(b, insert(a, empty))
+    findMin(h) == a.min(b)
+  }
 }
