@@ -43,4 +43,15 @@ abstract class QuickCheckHeap extends Properties("Heap") with IntHeap {
       case (false,false) => findMin(h) == findMin(h1).min( findMin(h2) )
     }
   }
+
+  def compareWithPrev(prev: Int, h: H): Boolean = {
+    if (isEmpty(h)) true else {
+      val next = findMin(h)
+      (prev <= next) && compareWithPrev(next, deleteMin(h))
+    }
+  }
+
+  property("repeatedly extracting minima yields increasing sequence") = forAll { (h: H) =>
+    compareWithPrev(Int.MinValue, h)
+  }
 }
