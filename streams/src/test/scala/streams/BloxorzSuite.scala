@@ -75,6 +75,25 @@ class BloxorzSuite extends FunSuite {
     }
   }
 
+  test("newNeighborsOnly") {
+    new Level1 {
+      val neighbors = Set(
+        (Block(Pos(1,2),Pos(1,3)), List(Right,Left,Up)),
+        (Block(Pos(2,1),Pos(3,1)), List(Down,Left,Up))
+      )
+      val history = Set(
+        Block(Pos(1,2), Pos(1,3)),
+        Block(Pos(1,1),Pos(1,1))
+      )
+      val correctAnswer = Set(
+        (Block(Pos(2,1),Pos(3,1)), List(Down, Left, Up))
+      )
+      val answer = newNeighborsOnly(neighbors.toStream, history).toSet
+
+      assert(answer == correctAnswer)
+    }
+  }
+
 
 	test("optimal solution for level 1") {
     new Level1 {
