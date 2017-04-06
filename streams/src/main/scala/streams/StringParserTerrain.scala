@@ -54,10 +54,14 @@ trait StringParserTerrain extends GameDef {
    */
   def terrainFunction(levelVector: Vector[Vector[Char]]): Pos => Boolean =
     pos => {
-      if (pos.row < 0) throw new IndexOutOfBoundsException("negative row")
-      if (pos.col < 0) throw new IndexOutOfBoundsException("negative col")
-      if (pos.row >= levelVector.size) throw new IndexOutOfBoundsException("row too large")
-      if (pos.col >= levelVector.head.size) throw new IndexOutOfBoundsException("column too large")
+      if (pos.row < 0)
+        throw new IndexOutOfBoundsException(s"negative row: ${pos.row}")
+      if (pos.col < 0)
+        throw new IndexOutOfBoundsException(s"negative col: ${pos.col}")
+      if (pos.row >= levelVector.size)
+        throw new IndexOutOfBoundsException(s"row too large: ${pos.row}")
+      if (pos.col >= levelVector.head.size)
+        throw new IndexOutOfBoundsException(s"column too large: ${pos.col}")
       levelVector(pos.row)(pos.col) != '-'
     }
 
