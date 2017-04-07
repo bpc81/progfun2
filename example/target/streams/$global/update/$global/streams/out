@@ -7,44 +7,18 @@
 [debug] == resolving dependencies for progfun2-example#progfun2-example_2.11;0.1-SNAPSHOT [compile]
 [debug] == resolving dependencies progfun2-example#progfun2-example_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.11.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@205bf1a
-[info] Resolving org.scala-lang#scala-library;2.11.7 ...
-[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@205bf1a
-[debug] 		tried /home/bpc/.ivy2/local/org.scala-lang/scala-library/2.11.7/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.scala-lang#scala-library;2.11.7
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.pom
-[debug] 	public: found md file for org.scala-lang#scala-library;2.11.7
-[debug] 		=> https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.pom (2.11.7)
-[debug] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.pom
-[debug] 	[SUCCESSFUL ] org.scala-lang#scala-library;2.11.7!scala-library.pom(pom.original) (67ms)
-[debug] 		tried /home/bpc/.ivy2/local/org.scala-lang/scala-library/2.11.7/jars/scala-library.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.jar
-[debug] 	found org.scala-lang#scala-library;2.11.7 in public
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@102e7d76
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.7
+[debug] 	found org.scala-lang#scala-library;2.11.7 in sbt-chain
 [debug] 	[2.11.7] org.scala-lang#scala-library;2.11.7
 [debug] == resolving dependencies progfun2-example#progfun2-example_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->runtime]
 [debug] == resolving dependencies progfun2-example#progfun2-example_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->compile]
 [debug] == resolving dependencies progfun2-example#progfun2-example_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->master]
 [debug] == resolving dependencies progfun2-example#progfun2-example_2.11;0.1-SNAPSHOT->ch.epfl.lamp#scala-grading-runtime_2.11;0.3 [compile->default(compile)]
 [info] Resolving ch.epfl.lamp#scala-grading-runtime_2.11;0.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1256372a
-[info] Resolving ch.epfl.lamp#scala-grading-runtime_2.11;0.3 ...
-[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@1256372a
-[debug] 		tried /home/bpc/.ivy2/local/ch.epfl.lamp/scala-grading-runtime_2.11/0.3/ivys/ivy.xml
-[debug] 	local: no ivy file found for ch.epfl.lamp#scala-grading-runtime_2.11;0.3
-[debug] 		tried https://repo1.maven.org/maven2/ch/epfl/lamp/scala-grading-runtime_2.11/0.3/scala-grading-runtime_2.11-0.3.pom
-[debug] 	public: found md file for ch.epfl.lamp#scala-grading-runtime_2.11;0.3
-[debug] 		=> https://repo1.maven.org/maven2/ch/epfl/lamp/scala-grading-runtime_2.11/0.3/scala-grading-runtime_2.11-0.3.pom (0.3)
-[debug] downloading https://repo1.maven.org/maven2/ch/epfl/lamp/scala-grading-runtime_2.11/0.3/scala-grading-runtime_2.11-0.3.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/ch/epfl/lamp/scala-grading-runtime_2.11/0.3/scala-grading-runtime_2.11-0.3.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/ch/epfl/lamp/scala-grading-runtime_2.11/0.3/scala-grading-runtime_2.11-0.3.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/ch/epfl/lamp/scala-grading-runtime_2.11/0.3/scala-grading-runtime_2.11-0.3.pom
-[debug] 	[SUCCESSFUL ] ch.epfl.lamp#scala-grading-runtime_2.11;0.3!scala-grading-runtime_2.11.pom(pom.original) (54ms)
-[debug] 		tried /home/bpc/.ivy2/local/ch.epfl.lamp/scala-grading-runtime_2.11/0.3/jars/scala-grading-runtime_2.11.jar
-[debug] 		tried https://repo1.maven.org/maven2/ch/epfl/lamp/scala-grading-runtime_2.11/0.3/scala-grading-runtime_2.11-0.3.jar
-[debug] 	found ch.epfl.lamp#scala-grading-runtime_2.11;0.3 in public
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@78ffc2f1
+[debug] sbt-chain: module revision found in cache: ch.epfl.lamp#scala-grading-runtime_2.11;0.3
+[debug] 	found ch.epfl.lamp#scala-grading-runtime_2.11;0.3 in sbt-chain
 [debug] == resolving dependencies progfun2-example#progfun2-example_2.11;0.1-SNAPSHOT->ch.epfl.lamp#scala-grading-runtime_2.11;0.3 [compile->runtime]
 [debug] == resolving dependencies progfun2-example#progfun2-example_2.11;0.1-SNAPSHOT->ch.epfl.lamp#scala-grading-runtime_2.11;0.3 [compile->compile]
 [debug] == resolving dependencies ch.epfl.lamp#scala-grading-runtime_2.11;0.3->org.scala-lang#scala-library;2.11.5 [compile->master(compile)]
@@ -54,40 +28,14 @@
 [debug] == resolving dependencies ch.epfl.lamp#scala-grading-runtime_2.11;0.3->org.scala-lang.modules#scala-pickling_2.11;0.10.0 [compile->master(compile)]
 [info] Resolving org.scala-lang.modules#scala-pickling_2.11;0.10.0 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-pickling_2.11;0.10.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving org.scala-lang.modules#scala-pickling_2.11;0.10.0 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.scala-lang.modules#scala-pickling_2.11;0.10.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried /home/bpc/.ivy2/local/org.scala-lang.modules/scala-pickling_2.11/0.10.0/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.scala-lang.modules#scala-pickling_2.11;0.10.0
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-pickling_2.11/0.10.0/scala-pickling_2.11-0.10.0.pom
-[debug] 	public: found md file for org.scala-lang.modules#scala-pickling_2.11;0.10.0
-[debug] 		=> https://repo1.maven.org/maven2/org/scala-lang/modules/scala-pickling_2.11/0.10.0/scala-pickling_2.11-0.10.0.pom (0.10.0)
-[debug] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-pickling_2.11/0.10.0/scala-pickling_2.11-0.10.0.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-pickling_2.11/0.10.0/scala-pickling_2.11-0.10.0.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-pickling_2.11/0.10.0/scala-pickling_2.11-0.10.0.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-pickling_2.11/0.10.0/scala-pickling_2.11-0.10.0.pom
-[debug] 	[SUCCESSFUL ] org.scala-lang.modules#scala-pickling_2.11;0.10.0!scala-pickling_2.11.pom(pom.original) (53ms)
-[debug] 		tried /home/bpc/.ivy2/local/org.scala-lang.modules/scala-pickling_2.11/0.10.0/jars/scala-pickling_2.11.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-pickling_2.11/0.10.0/scala-pickling_2.11-0.10.0.jar
-[debug] 	found org.scala-lang.modules#scala-pickling_2.11;0.10.0 in public
+[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-pickling_2.11;0.10.0
+[debug] 	found org.scala-lang.modules#scala-pickling_2.11;0.10.0 in sbt-chain
 [debug] == resolving dependencies ch.epfl.lamp#scala-grading-runtime_2.11;0.3->org.scala-lang.modules#scala-pickling_2.11;0.10.0 [compile->compile(*)]
 [debug] == resolving dependencies org.scala-lang.modules#scala-pickling_2.11;0.10.0->org.scala-lang#scala-compiler;2.11.4 [compile->master(compile)]
 [info] Resolving org.scala-lang#scala-compiler;2.11.4 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.11.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving org.scala-lang#scala-compiler;2.11.4 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.scala-lang#scala-compiler;2.11.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried /home/bpc/.ivy2/local/org.scala-lang/scala-compiler/2.11.4/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.scala-lang#scala-compiler;2.11.4
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.4/scala-compiler-2.11.4.pom
-[debug] 	public: found md file for org.scala-lang#scala-compiler;2.11.4
-[debug] 		=> https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.4/scala-compiler-2.11.4.pom (2.11.4)
-[debug] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.4/scala-compiler-2.11.4.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.4/scala-compiler-2.11.4.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.4/scala-compiler-2.11.4.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.4/scala-compiler-2.11.4.pom
-[debug] 	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.11.4!scala-compiler.pom(pom.original) (51ms)
-[debug] 		tried /home/bpc/.ivy2/local/org.scala-lang/scala-compiler/2.11.4/jars/scala-compiler.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.4/scala-compiler-2.11.4.jar
-[debug] 	found org.scala-lang#scala-compiler;2.11.4 in public
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.11.4
+[debug] 	found org.scala-lang#scala-compiler;2.11.4 in sbt-chain
 [debug] == resolving dependencies org.scala-lang.modules#scala-pickling_2.11;0.10.0->org.scala-lang#scala-compiler;2.11.4 [compile->compile(*)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.4->org.scala-lang#scala-library;2.11.4 [compile->master(compile)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.4->org.scala-lang#scala-library;2.11.4 [compile->compile(*)]
@@ -95,21 +43,8 @@
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.4->org.scala-lang#scala-reflect;2.11.4 [compile->master(compile)]
 [info] Resolving org.scala-lang#scala-reflect;2.11.4 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving org.scala-lang#scala-reflect;2.11.4 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried /home/bpc/.ivy2/local/org.scala-lang/scala-reflect/2.11.4/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.scala-lang#scala-reflect;2.11.4
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.4/scala-reflect-2.11.4.pom
-[debug] 	public: found md file for org.scala-lang#scala-reflect;2.11.4
-[debug] 		=> https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.4/scala-reflect-2.11.4.pom (2.11.4)
-[debug] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.4/scala-reflect-2.11.4.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.4/scala-reflect-2.11.4.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.4/scala-reflect-2.11.4.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.4/scala-reflect-2.11.4.pom
-[debug] 	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.11.4!scala-reflect.pom(pom.original) (48ms)
-[debug] 		tried /home/bpc/.ivy2/local/org.scala-lang/scala-reflect/2.11.4/jars/scala-reflect.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.4/scala-reflect-2.11.4.jar
-[debug] 	found org.scala-lang#scala-reflect;2.11.4 in public
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.4
+[debug] 	found org.scala-lang#scala-reflect;2.11.4 in sbt-chain
 [debug] 	[2.11.4] org.scala-lang#scala-reflect;2.11.4
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.4->org.scala-lang#scala-reflect;2.11.4 [compile->compile(*)]
 [debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.4->org.scala-lang#scala-library;2.11.4 [compile->master(compile)]
@@ -119,21 +54,8 @@
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master(compile)]
 [info] Resolving org.scala-lang.modules#scala-xml_2.11;1.0.2 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.11;1.0.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving org.scala-lang.modules#scala-xml_2.11;1.0.2 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.11;1.0.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried /home/bpc/.ivy2/local/org.scala-lang.modules/scala-xml_2.11/1.0.2/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.scala-lang.modules#scala-xml_2.11;1.0.2
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.pom
-[debug] 	public: found md file for org.scala-lang.modules#scala-xml_2.11;1.0.2
-[debug] 		=> https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.pom (1.0.2)
-[debug] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.pom
-[debug] 	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.11;1.0.2!scala-xml_2.11.pom(pom.original) (51ms)
-[debug] 		tried /home/bpc/.ivy2/local/org.scala-lang.modules/scala-xml_2.11/1.0.2/bundles/scala-xml_2.11.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar
-[debug] 	found org.scala-lang.modules#scala-xml_2.11;1.0.2 in public
+[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.2
+[debug] 	found org.scala-lang.modules#scala-xml_2.11;1.0.2 in sbt-chain
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile(*)]
 [debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->master(compile)]
 [debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->compile(*)]
@@ -141,21 +63,8 @@
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.4->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 [compile->master(compile)]
 [info] Resolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried /home/bpc/.ivy2/local/org.scala-lang.modules/scala-parser-combinators_2.11/1.0.2/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.2/scala-parser-combinators_2.11-1.0.2.pom
-[debug] 	public: found md file for org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2
-[debug] 		=> https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.2/scala-parser-combinators_2.11-1.0.2.pom (1.0.2)
-[debug] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.2/scala-parser-combinators_2.11-1.0.2.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.2/scala-parser-combinators_2.11-1.0.2.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.2/scala-parser-combinators_2.11-1.0.2.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.2/scala-parser-combinators_2.11-1.0.2.pom
-[debug] 	[SUCCESSFUL ] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2!scala-parser-combinators_2.11.pom(pom.original) (53ms)
-[debug] 		tried /home/bpc/.ivy2/local/org.scala-lang.modules/scala-parser-combinators_2.11/1.0.2/bundles/scala-parser-combinators_2.11.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.2/scala-parser-combinators_2.11-1.0.2.jar
-[debug] 	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 in public
+[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2
+[debug] 	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 in sbt-chain
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.4->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 [compile->compile(*)]
 [debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->master(compile)]
 [debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
@@ -201,21 +110,8 @@
 [debug] == resolving dependencies ch.epfl.lamp#scala-grading-runtime_2.11;0.3->org.scalatest#scalatest_2.11;2.2.1 [compile->master(compile)]
 [info] Resolving org.scalatest#scalatest_2.11;2.2.1 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scalatest#scalatest_2.11;2.2.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving org.scalatest#scalatest_2.11;2.2.1 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.scalatest#scalatest_2.11;2.2.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried /home/bpc/.ivy2/local/org.scalatest/scalatest_2.11/2.2.1/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.scalatest#scalatest_2.11;2.2.1
-[debug] 		tried https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.1/scalatest_2.11-2.2.1.pom
-[debug] 	public: found md file for org.scalatest#scalatest_2.11;2.2.1
-[debug] 		=> https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.1/scalatest_2.11-2.2.1.pom (2.2.1)
-[debug] downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.1/scalatest_2.11-2.2.1.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.1/scalatest_2.11-2.2.1.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.1/scalatest_2.11-2.2.1.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.1/scalatest_2.11-2.2.1.pom
-[debug] 	[SUCCESSFUL ] org.scalatest#scalatest_2.11;2.2.1!scalatest_2.11.pom(pom.original) (61ms)
-[debug] 		tried /home/bpc/.ivy2/local/org.scalatest/scalatest_2.11/2.2.1/bundles/scalatest_2.11.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.1/scalatest_2.11-2.2.1.jar
-[debug] 	found org.scalatest#scalatest_2.11;2.2.1 in public
+[debug] sbt-chain: module revision found in cache: org.scalatest#scalatest_2.11;2.2.1
+[debug] 	found org.scalatest#scalatest_2.11;2.2.1 in sbt-chain
 [debug] == resolving dependencies ch.epfl.lamp#scala-grading-runtime_2.11;0.3->org.scalatest#scalatest_2.11;2.2.1 [compile->compile(*)]
 [debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.1->org.scala-lang#scala-library;2.11.2 [compile->master(compile)]
 [debug] == resolving dependencies org.scalatest#scalatest_2.11;2.2.1->org.scala-lang#scala-library;2.11.2 [compile->compile(*)]
@@ -448,58 +344,15 @@
 [debug] == resolving dependencies progfun2-example#progfun2-example_2.11;0.1-SNAPSHOT->junit#junit;4.10 [test->default(compile)]
 [info] Resolving junit#junit;4.10 ...
 [debug] sbt-chain: Checking cache for: dependency: junit#junit;4.10 {test=[default(compile)]}
-[info] Resolving junit#junit;4.10 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: junit#junit;4.10 {test=[default(compile)]}
-[debug] 		tried /home/bpc/.ivy2/local/junit/junit/4.10/ivys/ivy.xml
-[debug] 	local: no ivy file found for junit#junit;4.10
-[debug] 		tried https://repo1.maven.org/maven2/junit/junit/4.10/junit-4.10.pom
-[debug] 	public: found md file for junit#junit;4.10
-[debug] 		=> https://repo1.maven.org/maven2/junit/junit/4.10/junit-4.10.pom (4.10)
-[debug] downloading https://repo1.maven.org/maven2/junit/junit/4.10/junit-4.10.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/junit/junit/4.10/junit-4.10.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/junit/junit/4.10/junit-4.10.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/junit/junit/4.10/junit-4.10.pom
-[debug] 	[SUCCESSFUL ] junit#junit;4.10!junit.pom(pom.original) (49ms)
-[debug] 		tried /home/bpc/.ivy2/local/junit/junit/4.10/jars/junit.jar
-[debug] 		tried https://repo1.maven.org/maven2/junit/junit/4.10/junit-4.10.jar
-[debug] 	found junit#junit;4.10 in public
+[debug] sbt-chain: module revision found in cache: junit#junit;4.10
+[debug] 	found junit#junit;4.10 in sbt-chain
 [debug] == resolving dependencies progfun2-example#progfun2-example_2.11;0.1-SNAPSHOT->junit#junit;4.10 [test->runtime]
 [debug] == resolving dependencies progfun2-example#progfun2-example_2.11;0.1-SNAPSHOT->junit#junit;4.10 [test->compile]
 [debug] == resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [compile->master(compile)]
 [info] Resolving org.hamcrest#hamcrest-core;1.1 ...
 [debug] sbt-chain: Checking cache for: dependency: org.hamcrest#hamcrest-core;1.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving org.hamcrest#hamcrest-core;1.1 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.hamcrest#hamcrest-core;1.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried /home/bpc/.ivy2/local/org.hamcrest/hamcrest-core/1.1/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.hamcrest#hamcrest-core;1.1
-[debug] 		tried https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.pom
-[debug] 	public: found md file for org.hamcrest#hamcrest-core;1.1
-[debug] 		=> https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.pom (1.1)
-[debug] downloading https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.pom
-[debug] 	[SUCCESSFUL ] org.hamcrest#hamcrest-core;1.1!hamcrest-core.pom(pom.original) (51ms)
-[info] Resolving org.hamcrest#hamcrest-parent;1.1 ...
-[debug] sbt-chain: Checking cache for: dependency: org.hamcrest#hamcrest-parent;1.1 {}
-[info] Resolving org.hamcrest#hamcrest-parent;1.1 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.hamcrest#hamcrest-parent;1.1 {}
-[debug] 		tried /home/bpc/.ivy2/local/org.hamcrest/hamcrest-parent/1.1/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.hamcrest#hamcrest-parent;1.1
-[debug] 		tried https://repo1.maven.org/maven2/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.pom
-[debug] 	public: found md file for org.hamcrest#hamcrest-parent;1.1
-[debug] 		=> https://repo1.maven.org/maven2/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.pom (1.1)
-[debug] downloading https://repo1.maven.org/maven2/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.pom
-[debug] 	[SUCCESSFUL ] org.hamcrest#hamcrest-parent;1.1!hamcrest-parent.pom(pom.original) (64ms)
-[debug] 		tried /home/bpc/.ivy2/local/org.hamcrest/hamcrest-parent/1.1/jars/hamcrest-parent.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.jar
-[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.jar
-[debug] 		tried /home/bpc/.ivy2/local/org.hamcrest/hamcrest-core/1.1/jars/hamcrest-core.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar
-[debug] 	found org.hamcrest#hamcrest-core;1.1 in public
+[debug] sbt-chain: module revision found in cache: org.hamcrest#hamcrest-core;1.1
+[debug] 	found org.hamcrest#hamcrest-core;1.1 in sbt-chain
 [debug] == resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [compile->compile(*)]
 [debug] == resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [compile->runtime(*)]
 [debug] == resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [compile->compile]
@@ -839,21 +692,8 @@
 [debug] == resolving dependencies progfun2-example#progfun2-example_2.11;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.11.7 [scala-tool->default]
 [info] Resolving org.scala-lang#scala-compiler;2.11.7 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.11.7 {scala-tool=[default, optional(default)]}
-[info] Resolving org.scala-lang#scala-compiler;2.11.7 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.scala-lang#scala-compiler;2.11.7 {scala-tool=[default, optional(default)]}
-[debug] 		tried /home/bpc/.ivy2/local/org.scala-lang/scala-compiler/2.11.7/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.scala-lang#scala-compiler;2.11.7
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7.pom
-[debug] 	public: found md file for org.scala-lang#scala-compiler;2.11.7
-[debug] 		=> https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7.pom (2.11.7)
-[debug] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7.pom
-[debug] 	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.11.7!scala-compiler.pom(pom.original) (57ms)
-[debug] 		tried /home/bpc/.ivy2/local/org.scala-lang/scala-compiler/2.11.7/jars/scala-compiler.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7.jar
-[debug] 	found org.scala-lang#scala-compiler;2.11.7 in public
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.11.7
+[debug] 	found org.scala-lang#scala-compiler;2.11.7 in sbt-chain
 [debug] == resolving dependencies progfun2-example#progfun2-example_2.11;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.11.7 [scala-tool->runtime]
 [debug] == resolving dependencies progfun2-example#progfun2-example_2.11;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.11.7 [scala-tool->compile]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
@@ -866,21 +706,8 @@
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-reflect;2.11.7 [compile->master(compile)]
 [info] Resolving org.scala-lang#scala-reflect;2.11.7 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving org.scala-lang#scala-reflect;2.11.7 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried /home/bpc/.ivy2/local/org.scala-lang/scala-reflect/2.11.7/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.scala-lang#scala-reflect;2.11.7
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7.pom
-[debug] 	public: found md file for org.scala-lang#scala-reflect;2.11.7
-[debug] 		=> https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7.pom (2.11.7)
-[debug] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7.pom
-[debug] 	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.11.7!scala-reflect.pom(pom.original) (59ms)
-[debug] 		tried /home/bpc/.ivy2/local/org.scala-lang/scala-reflect/2.11.7/jars/scala-reflect.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7.jar
-[debug] 	found org.scala-lang#scala-reflect;2.11.7 in public
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.7
+[debug] 	found org.scala-lang#scala-reflect;2.11.7 in sbt-chain
 [debug] 	[2.11.7] org.scala-lang#scala-reflect;2.11.7
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-reflect;2.11.7 [compile->compile(*)]
 [debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
@@ -892,21 +719,8 @@
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->master(compile)]
 [info] Resolving org.scala-lang.modules#scala-xml_2.11;1.0.4 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.11;1.0.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving org.scala-lang.modules#scala-xml_2.11;1.0.4 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.11;1.0.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried /home/bpc/.ivy2/local/org.scala-lang.modules/scala-xml_2.11/1.0.4/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.scala-lang.modules#scala-xml_2.11;1.0.4
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4.pom
-[debug] 	public: found md file for org.scala-lang.modules#scala-xml_2.11;1.0.4
-[debug] 		=> https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4.pom (1.0.4)
-[debug] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4.pom
-[debug] 	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.pom(pom.original) (53ms)
-[debug] 		tried /home/bpc/.ivy2/local/org.scala-lang.modules/scala-xml_2.11/1.0.4/bundles/scala-xml_2.11.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4.jar
-[debug] 	found org.scala-lang.modules#scala-xml_2.11;1.0.4 in public
+[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.4
+[debug] 	found org.scala-lang.modules#scala-xml_2.11;1.0.4 in sbt-chain
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->compile(*)]
 [debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [compile->master(compile)]
 [debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
@@ -920,21 +734,8 @@
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->master(compile)]
 [info] Resolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried /home/bpc/.ivy2/local/org.scala-lang.modules/scala-parser-combinators_2.11/1.0.4/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.pom
-[debug] 	public: found md file for org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4
-[debug] 		=> https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.pom (1.0.4)
-[debug] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.pom
-[debug] 	[SUCCESSFUL ] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.pom(pom.original) (52ms)
-[debug] 		tried /home/bpc/.ivy2/local/org.scala-lang.modules/scala-parser-combinators_2.11/1.0.4/bundles/scala-parser-combinators_2.11.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.jar
-[debug] 	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 in public
+[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4
+[debug] 	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 in sbt-chain
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile(*)]
 [debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [compile->master(compile)]
 [debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
@@ -958,24 +759,8 @@
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->jline#jline;2.12.1 [optional->master(compile)]
 [info] Resolving jline#jline;2.12.1 ...
 [debug] sbt-chain: Checking cache for: dependency: jline#jline;2.12.1 {optional=[compile(*), master(compile)]}
-[info] Resolving jline#jline;2.12.1 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: jline#jline;2.12.1 {optional=[compile(*), master(compile)]}
-[debug] 		tried /home/bpc/.ivy2/local/jline/jline/2.12.1/ivys/ivy.xml
-[debug] 	local: no ivy file found for jline#jline;2.12.1
-[debug] 		tried https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1.pom
-[debug] 	public: found md file for jline#jline;2.12.1
-[debug] 		=> https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1.pom (2.12.1)
-[debug] downloading https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1.pom
-[debug] 	[SUCCESSFUL ] jline#jline;2.12.1!jline.pom(pom.original) (65ms)
-[info] Resolving org.sonatype.oss#oss-parent;7 ...
-[debug] sbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}
-[debug] sbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7
-[debug] 		tried /home/bpc/.ivy2/local/jline/jline/2.12.1/jars/jline.jar
-[debug] 		tried https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1.jar
-[debug] 	found jline#jline;2.12.1 in public
+[debug] sbt-chain: module revision found in cache: jline#jline;2.12.1
+[debug] 	found jline#jline;2.12.1 in sbt-chain
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.7->jline#jline;2.12.1 [optional->compile(*)]
 [debug] == resolving dependencies progfun2-example#progfun2-example_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [scala-tool->default]
 [debug] == resolving dependencies progfun2-example#progfun2-example_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [scala-tool->runtime]
@@ -984,97 +769,22 @@
 [debug] == resolving dependencies progfun2-example#progfun2-example_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [scala-tool->optional(default)]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.jar
-[info] 	[SUCCESSFUL ] org.scala-lang#scala-library;2.11.7!scala-library.jar (1387ms)
-[debug] 		tried https://repo1.maven.org/maven2/ch/epfl/lamp/scala-grading-runtime_2.11/0.3/scala-grading-runtime_2.11-0.3.jar
-[info] downloading https://repo1.maven.org/maven2/ch/epfl/lamp/scala-grading-runtime_2.11/0.3/scala-grading-runtime_2.11-0.3.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/ch/epfl/lamp/scala-grading-runtime_2.11/0.3/scala-grading-runtime_2.11-0.3.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/ch/epfl/lamp/scala-grading-runtime_2.11/0.3/scala-grading-runtime_2.11-0.3.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/ch/epfl/lamp/scala-grading-runtime_2.11/0.3/scala-grading-runtime_2.11-0.3.jar
-[info] 	[SUCCESSFUL ] ch.epfl.lamp#scala-grading-runtime_2.11;0.3!scala-grading-runtime_2.11.jar (93ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-pickling_2.11/0.10.0/scala-pickling_2.11-0.10.0.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-pickling_2.11/0.10.0/scala-pickling_2.11-0.10.0.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-pickling_2.11/0.10.0/scala-pickling_2.11-0.10.0.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-pickling_2.11/0.10.0/scala-pickling_2.11-0.10.0.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-pickling_2.11/0.10.0/scala-pickling_2.11-0.10.0.jar
-[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-pickling_2.11;0.10.0!scala-pickling_2.11.jar (251ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.1/scalatest_2.11-2.2.1.jar
-[info] downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.1/scalatest_2.11-2.2.1.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.1/scalatest_2.11-2.2.1.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.1/scalatest_2.11-2.2.1.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.1/scalatest_2.11-2.2.1.jar
-[info] 	[SUCCESSFUL ] org.scalatest#scalatest_2.11;2.2.1!scalatest_2.11.jar(bundle) (1694ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.4/scala-compiler-2.11.4.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.4/scala-compiler-2.11.4.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.4/scala-compiler-2.11.4.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.4/scala-compiler-2.11.4.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.4/scala-compiler-2.11.4.jar
-[info] 	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.11.4!scala-compiler.jar (3164ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.4/scala-reflect-2.11.4.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.4/scala-reflect-2.11.4.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.4/scala-reflect-2.11.4.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.4/scala-reflect-2.11.4.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.4/scala-reflect-2.11.4.jar
-[info] 	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.11.4!scala-reflect.jar (1078ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.2/scala-parser-combinators_2.11-1.0.2.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.2/scala-parser-combinators_2.11-1.0.2.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.2/scala-parser-combinators_2.11-1.0.2.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.2/scala-parser-combinators_2.11-1.0.2.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.2/scala-parser-combinators_2.11-1.0.2.jar
-[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2!scala-parser-combinators_2.11.jar(bundle) (181ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar
-[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.11;1.0.2!scala-xml_2.11.jar(bundle) (197ms)
-[debug] 		tried https://repo1.maven.org/maven2/junit/junit/4.10/junit-4.10.jar
-[info] downloading https://repo1.maven.org/maven2/junit/junit/4.10/junit-4.10.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/junit/junit/4.10/junit-4.10.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/junit/junit/4.10/junit-4.10.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/junit/junit/4.10/junit-4.10.jar
-[info] 	[SUCCESSFUL ] junit#junit;4.10!junit.jar (107ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar
-[info] downloading https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar
-[info] 	[SUCCESSFUL ] org.hamcrest#hamcrest-core;1.1!hamcrest-core.jar (74ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7.jar
-[info] 	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.11.7!scala-compiler.jar (3534ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7.jar
-[info] 	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.11.7!scala-reflect.jar (1120ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4.jar
-[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(bundle) (206ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.jar
-[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(bundle) (153ms)
-[debug] 		tried https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1.jar
-[info] downloading https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1.jar
-[info] 	[SUCCESSFUL ] jline#jline;2.12.1!jline.jar (109ms)
-[debug] :: resolution report :: resolve 2126ms :: artifacts dl 13356ms
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.11.7!scala-library.jar
+[debug] 	[NOT REQUIRED] ch.epfl.lamp#scala-grading-runtime_2.11;0.3!scala-grading-runtime_2.11.jar
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-pickling_2.11;0.10.0!scala-pickling_2.11.jar
+[debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.11;2.2.1!scalatest_2.11.jar(bundle)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.4!scala-compiler.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.4!scala-reflect.jar
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2!scala-parser-combinators_2.11.jar(bundle)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.2!scala-xml_2.11.jar(bundle)
+[debug] 	[NOT REQUIRED] junit#junit;4.10!junit.jar
+[debug] 	[NOT REQUIRED] org.hamcrest#hamcrest-core;1.1!hamcrest-core.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.7!scala-compiler.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.7!scala-reflect.jar
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(bundle)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(bundle)
+[debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar
+[debug] :: resolution report :: resolve 277ms :: artifacts dl 7ms
 [debug] 	report for progfun2-example#progfun2-example_2.11;0.1-SNAPSHOT compile produced in /home/bpc/programming/coursera_progfun2/example/target/resolution-cache/reports/progfun2-example-progfun2-example_2.11-compile.xml
 [debug] 	report for progfun2-example#progfun2-example_2.11;0.1-SNAPSHOT runtime produced in /home/bpc/programming/coursera_progfun2/example/target/resolution-cache/reports/progfun2-example-progfun2-example_2.11-runtime.xml
 [debug] 	report for progfun2-example#progfun2-example_2.11;0.1-SNAPSHOT test produced in /home/bpc/programming/coursera_progfun2/example/target/resolution-cache/reports/progfun2-example-progfun2-example_2.11-test.xml
@@ -1088,5 +798,5 @@
 [debug] 	report for progfun2-example#progfun2-example_2.11;0.1-SNAPSHOT docs produced in /home/bpc/programming/coursera_progfun2/example/target/resolution-cache/reports/progfun2-example-progfun2-example_2.11-docs.xml
 [debug] 	report for progfun2-example#progfun2-example_2.11;0.1-SNAPSHOT pom produced in /home/bpc/programming/coursera_progfun2/example/target/resolution-cache/reports/progfun2-example-progfun2-example_2.11-pom.xml
 [debug] 	report for progfun2-example#progfun2-example_2.11;0.1-SNAPSHOT scala-tool produced in /home/bpc/programming/coursera_progfun2/example/target/resolution-cache/reports/progfun2-example-progfun2-example_2.11-scala-tool.xml
-[debug] 	resolve done (2126ms resolve - 13356ms download)
+[debug] 	resolve done (277ms resolve - 7ms download)
 [info] Done updating.

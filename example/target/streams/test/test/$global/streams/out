@@ -1,8 +1,0 @@
-[debug] Running TaskDef(example.ListsSuite, org.scalatest.tools.Framework$$anon$1@7d49a22e, false, [SuiteSelector])
-[info] Run completed in 65 milliseconds.
-[info] Total number of tests run: 6
-[info] Suites: completed 1, aborted 0
-[info] Tests: succeeded 6, failed 0, canceled 0, ignored 0, pending 0
-[info] All tests passed.
-[debug] Passed tests:
-[debug] 	example.ListsSuite
