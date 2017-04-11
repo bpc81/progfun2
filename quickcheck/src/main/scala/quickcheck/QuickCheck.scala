@@ -1,11 +1,12 @@
 package quickcheck
 
 import common._
-
 import org.scalacheck._
 import Arbitrary._
 import Gen._
 import Prop._
+
+import scala.annotation.tailrec
 
 abstract class QuickCheckHeap extends Properties("Heap") with IntHeap {
 
@@ -43,7 +44,21 @@ abstract class QuickCheckHeap extends Properties("Heap") with IntHeap {
       case (false,false) => findMin(h) == findMin(h1).min( findMin(h2) )
     }
   }
+/*
+  def isIncreasing(h: H): Boolean = {
+    if (isEmpty(h)) true else {
+      val myMin = findMin(h)
+      val hh = deleteMin(h)
+      if (isEmpty(hh)) true else (myMin <= findMin(hh)) && isIncreasing(hh)
+    }
+  }
 
+  property("alternate calculation of increasing sequence") = forAll {(h:H) =>
+    isIncreasing(h)
+  }
+*/
+
+  /*
   def compareWithPrev(prev: Int, h: H): Boolean = {
     if (isEmpty(h)) true else {
       val next = findMin(h)
@@ -51,9 +66,10 @@ abstract class QuickCheckHeap extends Properties("Heap") with IntHeap {
     }
   }
 
-  property("repeatedly extracting minima yields increasing sequence") = forAll { (h: H) =>
-    compareWithPrev(Int.MinValue, h)
-  }
+//  property("repeatedly extracting minima yields increasing sequence") = forAll { (h: H) =>
+//    compareWithPrev(Int.MinValue, h)
+//  }
+*/
 
   property("deleteMin removes correct element") = forAll { (h: H) =>
     if (isEmpty(h)) true else {
@@ -63,5 +79,37 @@ abstract class QuickCheckHeap extends Properties("Heap") with IntHeap {
       findMin(g) == n
     }
   }
+
+  def count(h: H): Int = if (isEmpty(h)) 0 else 1 + count(deleteMin(h))
+  property("deleteMin reduces size by one") = forAll { (h: H) =>
+    isEmpty(h) || count(h) == 1 + count(deleteMin(h))
+  }
+
+  property("delete and insert") = forAll { (h: H) =>
+    isEmpty(h) || {
+      val myMin = findMin(h)
+      val g = insert(myMin, deleteMin(h))
+      findMin(g) == myMin
+    }
+  }
+
+
+  property("construct from sequence & find min") = forAll { (ns: Seq[Int]) =>
+    val h: H = ns.foldRight(empty)( insert(_,_) )
+    (ns.length == 0 || findMin(h) == ns.min)
+  }
+
+  def collect(h: H): List[Int] = if (isEmpty(h)) Nil else findMin(h) :: collect(deleteMin(h))
+  property("collect returns increasing sequence") = forAll{ (h: H) => {
+    val data = collect(h)
+    data == data.sorted
+    }
+  }
+
+  property("preserves maximum") = forAll { (h: H, a: Int) =>
+    collect( insert(a,h) ).max >= a
+  }
+
+
 
 }
